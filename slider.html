@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Slider</title>
 	<link rel="stylesheet" href="assets/css/layout.css">
+	<link rel="stylesheet" href="assets/css/slide.css">
 </head>
 <body>
 <header class="header">
@@ -13,8 +14,14 @@
 <div class="container">
 	<main class="center column">
 		<article>
-			<h1>Lulz</h1>
-			<p>Tipo slider... (uslovia na stranitsu net)))</p>
+			<h1>top content (za bezzplatno)</h1>
+			<div>
+				<div id="mySlider"></div>
+				<button class="button prev" onclick="prevSlide()"><</button>
+				<button class="button next" onclick="nextSlide()">></button>
+				<div id="myReverseSlider"></div>
+			</div>
+			
 		</article>
 	</main>
 	<nav class="left column">
@@ -40,5 +47,7 @@
 		<p>Footer...</p>
 	</footer>
 </div>
+	<script src="assets/js/script.js"></script>
+
 </body>
 </html>
