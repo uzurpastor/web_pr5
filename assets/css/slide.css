@@ -8,6 +8,7 @@ a.slider {
    color: #000;
    border-radius: 25px;
    text-decoration: none;
+   z-index: 10;
 }
 
 
@@ -54,20 +55,16 @@ a.slider {
 
 
 .prev, .next{
-   font-size: 30px;
    font-weight: 700;
    font-family: 'Roboto', sans-serif;
-   height: 40px;
-   width: 40px;
+   height: 600px;
+   width: 50%;
    z-index: 3;
    position: absolute;
-   top: 360px;
-   opacity: 10%;
+   top: 80px;
+   opacity: 0;
 }
 
-.prev:hover, .next:hover{
-   opacity: 50%;
-}
 .next{
    right: 20px;
 }
